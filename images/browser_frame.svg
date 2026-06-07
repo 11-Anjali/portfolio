@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="333" viewBox="0 0 480 333">
+  <defs>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5b6cc8"/>
+      <stop offset="100%" stop-color="#f09ab0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- outer frame -->
+  <rect x="10" y="10" width="460" height="313" fill="#f5e7e7" stroke="#666" stroke-width="1.5"/>
+
+  <!-- title bar -->
+  <rect x="10" y="10" width="460" height="22" fill="#f3e3e3"/>
+  <rect x="430" y="16" width="9" height="9" fill="none" stroke="#333"/>
+  <line x1="447" y1="16" x2="456" y2="25" stroke="#333"/>
+  <line x1="456" y1="16" x2="447" y2="25" stroke="#333"/>
+
+  <!-- toolbar -->
+  <rect x="10" y="32" width="460" height="28" fill="url(#frameGrad)" opacity="0.65"/>
+
+  <!-- nav icons -->
+  <text x="20" y="51" font-size="18" fill="#333">←</text>
+  <text x="43" y="51" font-size="18" fill="#333">→</text>
+
+  <!-- address bar -->
+  <rect x="80" y="41" rx="8" ry="8" width="300" height="16" fill="white" stroke="#555"/>
+  <circle cx="100" cy="49" r="4" fill="none" stroke="#555"/>
+  <line x1="103" y1="52" x2="108" y2="57" stroke="#555"/>
+
+  <!-- right icons -->
+  <text x="390" y="51" font-size="18" fill="#333">↻</text>
+  <text x="420" y="51" font-size="16" fill="#333">☰</text>
+  <text x="445" y="51" font-size="16" fill="#333">☆</text>
+
+  <!-- content area -->
+  <rect x="15" y="62" width="450" height="252" fill="white" stroke="url(#frameGrad)" stroke-width="2"/>
+
+  <!-- placeholder text -->
+  <text x="240" y="190" text-anchor="middle" fill="#cccccc"
+        font-family="Arial, sans-serif" font-size="20">
+    Your Text Here
+  </text>
+</svg>

@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+}
+body{
+
+  background-color:#F7DEE1; 
+
+  background-image: 
+    linear-gradient(to right, #F7AAAF 1px, transparent 1px),
+    linear-gradient(to bottom, #F7AAAF 1px, transparent 1px);
+  
+  background-size: 40px 40px; 
+  /* font-family: 'VT323', monospace;  */
+  font-family: "DotGothic16", sans-serif;
+            
+}
+.page1 {
+    height: 100vh;
+}
+
+.desktop {
+    height: 90vh;
+    display: flex;
+    position: relative;
+}
+.title p {
+    font-size: 80px;
+    font-family: "DotGothic16", sans-serif;
+    letter-spacing: 15px;
+    font-weight: 400;
+}
+.icons {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap : 0px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 65%;
+    
+}
+
+.icon{
+    height : 45%;
+    width: 45%;
+    background: transparent;
+    border: none;
+    
+}
+.icon img {
+    height: 100%;
+    width : 100%;
+    object-fit: contain;
+}
+.folder-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height : 20%;
+    padding : 0;
+    margin: 0;
+    
+}
+.taskbar {
+    position: fixed;
+    bottom: 0;
+    left : 0;
+    width: 100%;
+    height : 8vh;
+    background-color:#FF6B81;
+}
+
+.about {
+    
+    position: absolute;
+    top : 35px;
+    left : 130px;
+}
+.about-image img{
+    display: none;
+    height: 85vh;
+    width: 85vw;
+}
