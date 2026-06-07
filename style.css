@@ -14,7 +14,8 @@ body{
   background-size: 40px 40px; 
   /* font-family: 'VT323', monospace;  */
   font-family: "DotGothic16", sans-serif;
-            
+  position: relative;
+
 }
 .page1 {
     height: 100vh;
@@ -58,7 +59,7 @@ body{
     width : 100%;
     object-fit: contain;
 }
-.folder-1 {
+.folders{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,18 +75,44 @@ body{
     bottom: 0;
     left : 0;
     width: 100%;
-    height : 8vh;
+    height : 6.5vh;
     background-color:#FF6B81;
+    
 }
 
-.about {
-    
+.about, .skills, .projects, .more, .ach {
     position: absolute;
-    top : 35px;
-    left : 130px;
+    top : 3%;
+    left : 13%;
+    display : none;
+    height : 80vh;
+    width : 80vw;
 }
-.about-image img{
-    display: none;
-    height: 85vh;
-    width: 85vw;
+.container{
+    height : 85vh;
+    width : 80vw;
+    position: relative;
+
+}
+.close-pop-up {
+    position: absolute;
+    top : 3%;
+    left : 82%;
+    height: 40px;
+    width: 50px;
+    
+}
+.container img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.about-content {
+    position: absolute;
+    top: 20%;
+    left : 20%;
+    z-index : 2;
+    height: 70%;
+    width: 60%;
+    background-color: white;
 }

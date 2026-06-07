@@ -1,6 +1,15 @@
-let icon1 = document.querySelector(".icon1");
-let about = document.querySelector(".ab-im");
+let icons = document.querySelectorAll(".icon");
+let folders = document.querySelectorAll(".folder");
+let close = document.querySelectorAll(".close-pop-up");
 
-icon1.addEventListener("click" , () => {
-    about.style.display = "block";
-})
+for(let i = 0; i < icons.length; i++) {
+    icons[i].addEventListener("click", () => {
+        folders[i].style.display = "block";
+    })
+}
+
+for(let i = 0; i < icons.length; i++) {
+    close[i].addEventListener("click", () => {
+        folders[i].style.display = "none";
+    })
+}
